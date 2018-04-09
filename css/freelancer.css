@@ -418,6 +418,7 @@ a:focus, a:hover, a:active {
   -webkit-transition: border 0.2s ease-in-out;
   -o-transition: border 0.2s ease-in-out;
   transition: border 0.2s ease-in-out;
+  text-align: center;
 }
 .thumbnail > img,
 .thumbnail a > img {
@@ -448,4 +449,14 @@ a.thumbnail.active {
 
 .pull-right {
   float: right !important;
+}
+
+.thumbnail img{
+  height: 130px;
+  width: 130px;
+}
+
+.title{
+  text-align: center;
+  color: #18BC9C
 }
