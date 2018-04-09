@@ -101,7 +101,7 @@ section h2 {
   padding-bottom: 1rem;
   font-weight: 700;
   font-family: 'Montserrat';
-  height:70px !important;
+  height:60px !important;
 }
 
 #mainNav .navbar-brand {
@@ -404,4 +404,48 @@ a:focus, a:hover, a:active {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size:cover;
+}
+
+/* Automtive Product Page */
+.thumbnail {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: border 0.2s ease-in-out;
+  -o-transition: border 0.2s ease-in-out;
+  transition: border 0.2s ease-in-out;
+}
+.thumbnail > img,
+.thumbnail a > img {
+  margin-right: auto;
+  margin-left: auto;
+}
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+  border-color: #337ab7;
+}
+.thumbnail .caption {
+  padding: 9px;
+  color: #333;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.pull-right {
+  float: right !important;
 }
