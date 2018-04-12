@@ -489,19 +489,19 @@ a.thumbnail.active {
 }
 
 .one{
-background-color: red;
+background-color: gray;
 }
 
 .two{
-background-color: blue;
+background-color: gray;
 }
 
 .three{
-background-color: purple;
+background-color: gray;
 }
 
 .four{
-background-color: orange;  
+background-color: gray;  
 }
 
 .buttons{
